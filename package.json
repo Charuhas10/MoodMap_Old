@@ -9,9 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^4.29.1",
+    "@prisma/client": "^5.7.1",
+    "langchain": "^0.0.213",
+    "next": "14.0.4",
     "react": "^18",
+    "react-autosave": "^0.4.3",
     "react-dom": "^18",
-    "next": "14.0.4"
+    "recharts": "^2.10.3",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "eslint": "^8",

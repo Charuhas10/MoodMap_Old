@@ -1,0 +1,22 @@
+.container {
+  padding: 2.5rem;
+  background-color: #fff5e4;
+  height: 100%;
+}
+
+.header {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  margin-bottom: 2rem;
+}
+
+.questionContainer {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
