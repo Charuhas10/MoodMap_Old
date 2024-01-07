@@ -112,3 +112,35 @@
   font-size: 1.125rem;
   font-weight: 600;
 }
+
+.custom-tooltip-container {
+  padding: 2rem;
+  /* Add custom-tooltip styles here */
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  backdrop-filter: blur(12px);
+  position: relative;
+}
+
+.color-indicator {
+  position: absolute;
+  left: 0.5rem;
+  top: 0.5rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 9999px; /* Full circle */
+  /* The background color is dynamic, set in style attribute */
+}
+
+.label-text {
+  font-size: 0.875rem; /* Tailwind text-sm */
+  color: rgba(0, 0, 0, 0.3); /* Tailwind text-black/30 */
+}
+
+.intro-text {
+  font-size: 1.25rem; /* Tailwind text-xl */
+  text-transform: uppercase;
+}
